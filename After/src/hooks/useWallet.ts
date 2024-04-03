@@ -7,7 +7,6 @@ const useWallet = () => {
   const [walletChain,setwalletChain] = useState<string | null>(null)
   const [openConnectModal,setopenConnectModal] = useState<string | null>(null)
   const [isBalanceError,setisBalanceError] = useState<string | null>(null)
-  // Other state variables and functions related to wallet management
 
   // Use useEffect to initialize wallet connection 
   useEffect(() => {
@@ -23,7 +22,7 @@ const useWallet = () => {
     walletChain,
     isBalanceError,
     openConnectModal
-    // Other state variables and functions you want to expose
+    // Other state variables and functions 
   };
 };
 
